@@ -1,2 +1,2 @@
-# gin-admin-api
-基于gin框架的管理后台api
+# gin-api
+基于 gin 框架的api
