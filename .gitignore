@@ -24,8 +24,10 @@ profile.cov
 go.work
 go.work.sum
 
-# env file
-.env
+# 如果你想忽略整个 configs 目录下所有 .yaml，但保留 .example 文件，可以这样写：
+configs/*.yaml
+!configs/*.example
+!configs/*.example.yaml   （视文件名后缀而定）
 
 # Editor/IDE
 .idea/
